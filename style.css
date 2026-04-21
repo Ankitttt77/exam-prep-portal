@@ -1,0 +1,24 @@
+body {
+    background: #0f172a;
+    color: white;
+    text-align: center;
+    font-family: Arial;
+}
+
+input, select {
+    padding: 10px;
+    margin: 5px;
+}
+
+button {
+    padding: 10px;
+    background: #22c55e;
+    border: none;
+    color: white;
+}
+
+#paper {
+    margin-top: 20px;
+    padding: 20px;
+    background: #1e293b;
+}
