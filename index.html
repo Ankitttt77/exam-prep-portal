@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Student Hub AI</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h1>🎯 Student Hub AI</h1>
+
+<div id="login">
+    <input id="name" placeholder="Enter your name">
+    <button onclick="login()">Start</button>
+</div>
+
+<div id="app" style="display:none;">
+    <h2>Welcome, <span id="username"></span></h2>
+
+    <input id="chapter" placeholder="Chapter">
+
+    <select id="difficulty">
+        <option>Easy</option>
+        <option>Medium</option>
+        <option>Hard</option>
+    </select>
+
+    <select id="type">
+        <option>MCQ</option>
+        <option>Short</option>
+        <option>Long</option>
+    </select>
+
+    <button onclick="generate()">Generate Paper</button>
+
+    <div id="paper"></div>
+
+    <button onclick="submitTest()">Submit</button>
+
+    <h3>🏆 Leaderboard</h3>
+    <ul id="board"></ul>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
